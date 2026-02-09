@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'notosansjp';
+  src: url('');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'notosansjp', sans-serif;
+}
