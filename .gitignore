@@ -1,5 +1,5 @@
-README.md
 .gitignore
+*.md
 *.html
 *.css
 *.js
