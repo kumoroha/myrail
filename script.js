@@ -1,4 +1,4 @@
-function table(datalist) {
+function table(datalist, tableid) {
   const rows = datalist.map(char => {
     let input;
     if ( char[6] == 'true' || char[6] == true ) {
@@ -22,6 +22,6 @@ function table(datalist) {
     <td>${input}</td>
     </tr>`;
   }).join('');
-  document.getElementById('table_shinkansen').innerHTML = rows;
+  document.getElementById(tableid).innerHTML = rows;
 }
-table(datalist);
+table(datalist, 'table_shinkansen');
