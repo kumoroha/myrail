@@ -1,7 +1,7 @@
 function table(datalist) {
   const rows = datalist.map(char => {
     let input;
-    if ( char[7] == 'true' || char[7] == true ) {
+    if ( char[6] == 'true' || char[6] == true ) {
       input = '<input type="checkbox" checked>';
     } else {
       input = '<input type="checkbox">';
