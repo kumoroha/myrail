@@ -7,7 +7,7 @@ function table(datalist, tableid) {
       input = '<input type="checkbox">';
     }
     let first;
-    if ( char[0] != '' || char[0] != null ) {
+    if ( char[0] != '' && char[0] != null ) {
       first = `<td>${char[0]}</td>`;
     } else {
       first = '';
