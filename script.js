@@ -25,3 +25,4 @@ function table(datalist, tableid) {
   document.getElementById(tableid).innerHTML = rows;
 }
 table(datalist, 'table_shinkansen');
+table(datalist-higashi, 'table_higashi');
