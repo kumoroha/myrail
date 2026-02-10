@@ -1,10 +1,10 @@
 function table(datalist) {
   const rows = datalist.map(char =>
     let input;
-    if (datalist[7] == 'true') {
-    input = '<input type="checkbox" checked>';
+    if ( char[7] == 'true' || char[7] == true ) {
+      input = '<input type="checkbox" checked>';
     } else {
-    input= '<input type="checkbox">';
+      input = '<input type="checkbox">';
     }
     return `<tr>
     <td>${char[0]}</td>
