@@ -15,6 +15,6 @@ function table(datalist) {
     <td>${char.date}</td>
     <td>${input}</td>
     </tr>`).join('');
-  document.getElementById('shinkansen').innerHTML = rows;
+  document.getElementById('table_shinkansen').innerHTML = rows;
 }
 table(datalist);
