@@ -13,7 +13,6 @@ function table(datalist) {
     <td>${char[3]}</td>
     <td>${char[4]}</td>
     <td>${char[5]}</td>
-    <td>${char[6]}</td>
     <td>${input}</td>
     </tr>` }).join('');
   document.getElementById('table_shinkansen').innerHTML = rows;
