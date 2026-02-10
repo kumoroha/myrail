@@ -14,7 +14,8 @@ function table(datalist) {
     <td>${char[4]}</td>
     <td>${char[5]}</td>
     <td>${input}</td>
-    </tr>` }).join('');
+    </tr>`;
+  }).join('');
   document.getElementById('table_shinkansen').innerHTML = rows;
 }
 table(datalist);
