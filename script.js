@@ -6,8 +6,14 @@ function table(datalist) {
     } else {
       input = '<input type="checkbox">';
     }
+    let first;
+    if ( char[0] != '' || char[0] != null ) {
+      first = `<td>${char[0]}</td>`;
+    } else {
+      first = '';
+    }
     return `<tr>
-    <td>${char[0]}</td>
+    ${first}
     <td>${char[1]}</td>
     <td>${char[2]}</td>
     <td>${char[3]}</td>
