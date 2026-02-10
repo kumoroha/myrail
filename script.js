@@ -6,7 +6,7 @@ function table(datalist) {
     input= '<input type="checkbox">';
   }
   const rows = datalist.map(char => 
-    `<tr><td>${char.name}</td>
+    `<tr>
     <td>${char[0]}</td>
     <td>${char[1]}</td>
     <td>${char[2]}</td>
