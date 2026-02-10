@@ -15,11 +15,11 @@ table {
 }
 th, td {
   border: 1px solid #000000;
-  padding: 2px;
+  padding: 5px;
   text-align: left;
 }
 th {
-  background-color: #039393;
+  background-color: #003f6c;
 }
 
 input[type="checkbox"] {
