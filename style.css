@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'notosansjp';
-  src: url('NotoSansJP-Regular.ttf') format('turetype');
-  font-weight: normal;
+  src: url('NotoSansJP-VariableFont_wght.ttf') format('turetype');
+  font-weight: 100 900;
   font-style: normal;
 }
 
