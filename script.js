@@ -1,5 +1,5 @@
 function table(datalist) {
-  const rows = datalist.map(char =>
+  const rows = datalist.map(char => {
     let input;
     if ( char[7] == 'true' || char[7] == true ) {
       input = '<input type="checkbox" checked>';
@@ -15,7 +15,7 @@ function table(datalist) {
     <td>${char[5]}</td>
     <td>${char[6]}</td>
     <td>${input}</td>
-    </tr>`).join('');
+    </tr>`)}).join('');
   document.getElementById('table_shinkansen').innerHTML = rows;
 }
 table(datalist);
