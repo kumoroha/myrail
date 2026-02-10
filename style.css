@@ -21,3 +21,7 @@ th, td {
 th {
   background-color: #039393;
 }
+
+input[type="checkbox"] {
+  pointer-events: none;
+}
