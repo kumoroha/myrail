@@ -12,13 +12,20 @@ function table(datalist, tableid) {
     } else {
       first = '';
     }
+    let date;
+    if ( char[5] == '不明' || char[5] == '' || char[5] == null ) {
+      date = '不明';
+    } else {
+      date = `${char[5]}`;
+    }
+
     return `<tr>
     ${first}
     <td>${char[1]}</td>
     <td>${char[2]}</td>
     <td>${char[3]}</td>
     <td>${char[4]}</td>
-    <td>${char[5]}</td>
+    <td>${date}</td>
     <td>${input}</td>
     </tr>`;
   }).join('');
