@@ -9,7 +9,7 @@
     <h2>新幹線</h2>
       <table id="shinkansen">
         <thead>
-          <tr style="color: white">
+          <tr id="tr_shin" style="color: white;">
             <th>会社名</th>
             <th>線区</th>
             <th>区間</th>
@@ -22,9 +22,10 @@
       </table>
     <br>
     <h2>JR各社</h2>
+      <div id="con_jr">
       <table id="jr">
       <thead>
-        <tr style="color: white; background-color: #007a5e;">
+        <tr id="tr_jr" style="color: white">
           <th>会社名</th>
           <th>線区</th>
           <th>区間</th>
@@ -36,6 +37,7 @@
       </thead>
       <tbody id="table_jr"></tbody>
       </table>
+      </div>
     <script src="data.js"></script>
     <script src="script.js"></script>
   </body>

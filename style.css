@@ -18,12 +18,21 @@ th, td {
   padding: 5px;
   text-align: left;
 }
-th {
+#tr_shin {
   background-color: #003f6c;
+}
+#tr_jr {
+  background-color: #007a5e;
 }
 
 input[type="checkbox"] {
   pointer-events: none;
+}
+
+#con_jr {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 
 h2{
