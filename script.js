@@ -24,5 +24,5 @@ function table(datalist, tableid) {
   }).join('');
   document.getElementById(tableid).innerHTML = rows;
 }
-table(datalist, 'table_shinkansen');
+table(datalist_shinkansen, 'table_shinkansen');
 table(datalist_jr, 'table_jr');
